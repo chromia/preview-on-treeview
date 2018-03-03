@@ -1,0 +1,38 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.preview-on-treeview {
+    .hidden {
+        display: none;
+    }
+    background-color: none;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+}
+
+.preview-on-treeview .container {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.preview-on-treeview .container .message {
+    font-size: 16px;
+    color: black;
+    background-color: powderblue;
+}
