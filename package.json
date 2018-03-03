@@ -1,13 +1,13 @@
 {
-    "name": "preview-on-treeview",
-    "main": "./lib/preview-on-treeview",
-    "version": "0.0.0",
-    "description": "Shows the image preview when you move the cursor over the treeview items.",
-    "keywords": [],
-    "repository": "https://github.com/chromia/preview-on-treeview",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {}
+  "name": "preview-on-treeview",
+  "main": "./lib/preview-on-treeview",
+  "version": "1.0.0",
+  "description": "Shows the image preview when you move the cursor over the treeview items.",
+  "keywords": [],
+  "repository": "https://github.com/chromia/preview-on-treeview",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
 }
